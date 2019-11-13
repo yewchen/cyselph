@@ -34,14 +34,14 @@
 
 
 - 或者是使用：
-- 	`–-Dappdynamics.controller.hostName= `
-- 	`–-Dappdynamics.controller.port= `
-- 	`–-Dappdynamics.agent.acountName= `
-- 	`–-Dappdynamics.agent.accountAccessKey= `
-	`–-Dappdynamics.agent.applicationName= `
-	`–-Dappdynamics.agent.tierName=`
-	`–-Dappdynamics.agent.nodeName=`
-	`–-Dappdynamics.agent.nodeName.=`
+- 	`–-Dappdynamics.controller.hostName=${APPD_HOST} `
+- 	`–-Dappdynamics.controller.port=${APPD_PORT} `
+- 	`–-Dappdynamics.agent.acountName=${APPD_ACCOUNT_NAME} `
+- 	`–-Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}`
+	`–-Dappdynamics.agent.applicationName=${APPD_APP_NAME}`
+	`–-Dappdynamics.agent.tierName=${APPD_TIER_NAME}`
+	`–-Dappdynamics.agent.nodeName=true`
+	`–-Dappdynamics.agent.nodeName.prefix=`
 
 
 
@@ -49,6 +49,6 @@
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQ0MjQxNywxNDQxNDkwNjQ2LC0zNj
+eyJoaXN0b3J5IjpbMTYwMjQzNzkwOCwxNDQxNDkwNjQ2LC0zNj
 c2NTE4ODJdfQ==
 -->
