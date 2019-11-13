@@ -55,6 +55,10 @@ docker run --rm -it -p 8080:8080 \
 -e APPD_NODE_PREFIX=AP \
 payment
 
+- Machine Agent的參數值
+http.event.endpoint 填自己主機的ip:9080
+http.event.accountName 填controller上的global account name 
+
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
@@ -68,7 +72,7 @@ payment
 2. 資料有時間限制，預設兩周
 3. Machine agent 的免費版只能檢測 CPU、RAM、InternetIO、DiskIO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTA0MjIxMywxMTY5NTc0NjczLC00Mj
-YyNzc1NzgsNjI2MzE1MDgzLC0xNTUxNjkwODA5LDE0NDE0OTA2
-NDYsLTM2NzY1MTg4Ml19
+eyJoaXN0b3J5IjpbLTE5NzQ0NDE2NzQsMTc3OTA0MjIxMywxMT
+Y5NTc0NjczLC00MjYyNzc1NzgsNjI2MzE1MDgzLC0xNTUxNjkw
+ODA5LDE0NDE0OTA2NDYsLTM2NzY1MTg4Ml19
 -->
