@@ -33,15 +33,15 @@
 `JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}" `
  
  
-	- 或者是使用(猜測應該是要以這為主，或者在ACM執行image的時候設定)： 
- 	–-Dappdynamics.controller.hostName=${APPD_HOST} `
+- 或者是使用(猜測應該是要以這為主，或者在ACM執行image的時候設定)： 
+ 	`–-Dappdynamics.controller.hostName=${APPD_HOST} `
  	`–-Dappdynamics.controller.port=${APPD_PORT} `
  	`–-Dappdynamics.agent.acountName=${APPD_ACCOUNT_NAME} `
  	`–-Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}`
 	`–-Dappdynamics.agent.applicationName=${APPD_APP_NAME}`
 	`–-Dappdynamics.agent.tierName=${APPD_TIER_NAME}`
 	`–-Dappdynamics.agent.reuse.nodeName=true`
-	`–-Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX} 
+	`–-Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX} ` 
 
 - 執行docker run
  payment
@@ -59,6 +59,6 @@ payment
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA0ODM2NTUsMTQ0MTQ5MDY0NiwtMz
+eyJoaXN0b3J5IjpbLTE1NTE2OTA4MDksMTQ0MTQ5MDY0NiwtMz
 Y3NjUxODgyXX0=
 -->
