@@ -15,12 +15,14 @@
 	- node-name是唯一
 	- 若同一台主機有多個tomcat，會吃到同一個controller-info.xml
 	- 可在啟動agent.sh內overwrite參數即可
+- Tomcat安裝
+- 
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzcxNDIyNiwxMDczMzA5OTA1LC04Mj
-EzNjY4MzAsLTE5NTUxMDMxNDIsLTcxNjEzMzk3NywxNDc0MzQ5
-Njg1XX0=
+eyJoaXN0b3J5IjpbNTk4Mjg2OTMyLDEwNzMzMDk5MDUsLTgyMT
+M2NjgzMCwtMTk1NTEwMzE0MiwtNzE2MTMzOTc3LDE0NzQzNDk2
+ODVdfQ==
 -->
