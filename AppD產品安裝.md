@@ -9,6 +9,7 @@
 - 各單位的APM窗口有Account權限
 - Agent為inprocess，ps -ef時可能只看得到一個java執行process
 - 安裝
+	- 設定環境變數！<Agent_Home>
 	- 記得解壓縮時先建立根目錄(原壓縮檔內無根目錄)
 	- 設定conf/controller-info.xml
 	- 同一台主機只能共用一個controller-info.xml
@@ -22,7 +23,7 @@
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwODI0MDY1LDEwNzMzMDk5MDUsLTgyMT
+eyJoaXN0b3J5IjpbODg5Mzk2NjEyLDEwNzMzMDk5MDUsLTgyMT
 M2NjgzMCwtMTk1NTEwMzE0MiwtNzE2MTMzOTc3LDE0NzQzNDk2
 ODVdfQ==
 -->
