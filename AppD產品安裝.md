@@ -62,7 +62,10 @@ payment
 ## 神
 1. 聽說agent可以植入web、app裡面
 2. Machine agent 的免費版只能檢測 CPU、RAM、InternetIO、DiskIO
+
+## QA
+1. OCSG C的應用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2MzE1MDgzLC0xNTUxNjkwODA5LDE0ND
-E0OTA2NDYsLTM2NzY1MTg4Ml19
+eyJoaXN0b3J5IjpbLTQyNjI3NzU3OCw2MjYzMTUwODMsLTE1NT
+E2OTA4MDksMTQ0MTQ5MDY0NiwtMzY3NjUxODgyXX0=
 -->
