@@ -19,14 +19,16 @@
 - Tomcat安裝
 	- tomcat/bin新增 setenv.sh，內容為export javaagent
 - Docker Container安裝
+	- 不確定以下env是否是設定在JAVA_OPTS (此為JBoss範例)
 `
+JAVA_OPTS="${JAVA_OPTS} -Djboss.modules.system.pkgs=${JBOSS_MODULES_SYSTEM_PKGS}" JAVA_OPTS="${JAVA_OPTS} -javaagent:/opt/AppServerAgent/javaagent.jar" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.controller.hostName=${APPD_HOST}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.controller.port=${APPD_PORT}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.accountName=${APPD_ACCOUNT_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.applicationName=${APPD_APP_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.tierName=${APPD_TIER_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName=true" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}"
 `
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDcwMTY4NjYsMjU5Njc1MjI3LDg4OT
-M5NjYxMiwxMDczMzA5OTA1LC04MjEzNjY4MzAsLTE5NTUxMDMx
-NDIsLTcxNjEzMzk3NywxNDc0MzQ5Njg1XX0=
+eyJoaXN0b3J5IjpbLTM2NzY1MTg4MiwyNTk2NzUyMjcsODg5Mz
+k2NjEyLDEwNzMzMDk5MDUsLTgyMTM2NjgzMCwtMTk1NTEwMzE0
+MiwtNzE2MTMzOTc3LDE0NzQzNDk2ODVdfQ==
 -->
