@@ -31,24 +31,28 @@
 `JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.tierName=${APPD_TIER_NAME}" `
 `JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName=true"  `
 `JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}" `
-
-
-- 或者是使用：
-- 	`–-Dappdynamics.controller.hostName=${APPD_HOST} `
-- 	`–-Dappdynamics.controller.port=${APPD_PORT} `
-- 	`–-Dappdynamics.agent.acountName=${APPD_ACCOUNT_NAME} `
-- 	`–-Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}`
+ 
+ 
+	- 或者是使用： 
+ 	`–-Dappdynamics.controller.hostName=${APPD_HOST} `
+ 	`–-Dappdynamics.controller.port=${APPD_PORT} `
+ 	`–-Dappdynamics.agent.acountName=${APPD_ACCOUNT_NAME} `
+ 	`–-Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}`
 	`–-Dappdynamics.agent.applicationName=${APPD_APP_NAME}`
 	`–-Dappdynamics.agent.tierName=${APPD_TIER_NAME}`
 	`–-Dappdynamics.agent.reuse.nodeName=true`
-	`–-Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}`
+	`–-Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX} ` 
 
 
+
+	
+
+	
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTg4NTI1MywxNDQxNDkwNjQ2LC0zNj
+eyJoaXN0b3J5IjpbLTQ5OTg3MTQ2MSwxNDQxNDkwNjQ2LC0zNj
 c2NTE4ODJdfQ==
 -->
