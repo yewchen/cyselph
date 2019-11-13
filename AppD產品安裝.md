@@ -11,12 +11,16 @@
 - 安裝
 	- 記得解壓縮時先建立根目錄(原壓縮檔內無根目錄)
 	- 設定conf/controller-info.xml
+	- 同一台主機只能共用一個controller-info.xml
+	- node-name是唯一
+	- 若同一台主機有多個tomcat，會吃到同一個controller-info.xml
+	- 可在啟動agent.sh內
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTYyMTg1NSwxMDczMzA5OTA1LC04Mj
-EzNjY4MzAsLTE5NTUxMDMxNDIsLTcxNjEzMzk3NywxNDc0MzQ5
-Njg1XX0=
+eyJoaXN0b3J5IjpbLTEzMDU3NjEzODIsMTA3MzMwOTkwNSwtOD
+IxMzY2ODMwLC0xOTU1MTAzMTQyLC03MTYxMzM5NzcsMTQ3NDM0
+OTY4NV19
 -->
