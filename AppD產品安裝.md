@@ -21,9 +21,7 @@
 - Docker Container安裝
 	- 不確定以下env是否是設定在JAVA_OPTS (此為JBoss範例)  
 	
-`
-JAVA_OPTS="${JAVA_OPTS} -Djboss.modules.system.pkgs=${JBOSS_MODULES_SYSTEM_PKGS}" JAVA_OPTS="${JAVA_OPTS} -javaagent:/opt/AppServerAgent/javaagent.jar" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.controller.hostName=${APPD_HOST}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.controller.port=${APPD_PORT}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.accountName=${APPD_ACCOUNT_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.applicationName=${APPD_APP_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.tierName=${APPD_TIER_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName=true" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}"
-`
+`JAVA_OPTS="${JAVA_OPTS} -Djboss.modules.system.pkgs=${JBOSS_MODULES_SYSTEM_PKGS}" JAVA_OPTS="${JAVA_OPTS} -javaagent:/opt/AppServerAgent/javaagent.jar" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.controller.hostName=${APPD_HOST}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.controller.port=${APPD_PORT}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.accountName=${APPD_ACCOUNT_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.applicationName=${APPD_APP_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.tierName=${APPD_TIER_NAME}" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName=true" JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}"`
 
 –-Dappdynamics.agent.applicationName= –-Dappdynamics.agent.tierName= –-Dappdynamics.agent.nodeName=
 
@@ -32,6 +30,6 @@ JAVA_OPTS="${JAVA_OPTS} -Djboss.modules.system.pkgs=${JBOSS_MODULES_SYSTEM_PKGS}
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDE2NjkzMiwxNDQxNDkwNjQ2LC0zNj
-c2NTE4ODJdfQ==
+eyJoaXN0b3J5IjpbLTE4NDMyMzc0MzIsMTQ0MTQ5MDY0NiwtMz
+Y3NjUxODgyXX0=
 -->
