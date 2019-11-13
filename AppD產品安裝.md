@@ -58,7 +58,11 @@ payment
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
+
+## 神
+1. 聽說agent可以植入web、app裡面
+2. Machine agent 的免費版只能檢測 CPU、RAM、InternetIO、DiskIO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE2OTA4MDksMTQ0MTQ5MDY0NiwtMz
-Y3NjUxODgyXX0=
+eyJoaXN0b3J5IjpbNjI2MzE1MDgzLC0xNTUxNjkwODA5LDE0ND
+E0OTA2NDYsLTM2NzY1MTg4Ml19
 -->
