@@ -7,6 +7,7 @@
 - Docker Container環境不適用Machine Agent（其實Docker自行用OSS監控即可）
 - 安裝Agent需要key，Key需要從管理網頁的Account取得
 - 各單位的APM窗口有Account權限
+- Agent為inprocess，ps -ef時可能只看得到一個java執行process
 - 安裝
 	- 記得解壓縮時先建立根目錄(原壓縮檔內無根目錄)
 	- 設定conf/controller-info.xml
@@ -15,6 +16,7 @@
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzMwOTkwNSwtODIxMzY2ODMwLC0xOT
-U1MTAzMTQyLC03MTYxMzM5NzcsMTQ3NDM0OTY4NV19
+eyJoaXN0b3J5IjpbLTg5OTYyMTg1NSwxMDczMzA5OTA1LC04Mj
+EzNjY4MzAsLTE5NTUxMDMxNDIsLTcxNjEzMzk3NywxNDc0MzQ5
+Njg1XX0=
 -->
