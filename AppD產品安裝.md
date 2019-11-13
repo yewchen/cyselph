@@ -18,12 +18,14 @@
 	- 可在啟動agent.sh內overwrite參數即可
 - Tomcat安裝
 	- tomcat/bin新增 setenv.sh，內容為export javaagent
+- Docker Container安裝
+	- 
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5Mzk2NjEyLDEwNzMzMDk5MDUsLTgyMT
-M2NjgzMCwtMTk1NTEwMzE0MiwtNzE2MTMzOTc3LDE0NzQzNDk2
-ODVdfQ==
+eyJoaXN0b3J5IjpbMjU5Njc1MjI3LDg4OTM5NjYxMiwxMDczMz
+A5OTA1LC04MjEzNjY4MzAsLTE5NTUxMDMxNDIsLTcxNjEzMzk3
+NywxNDc0MzQ5Njg1XX0=
 -->
