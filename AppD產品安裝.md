@@ -34,17 +34,21 @@
 
 
 - 或者是使用：
-	`
-	–-Dappdynamics.agent.applicationName= 
-	–-Dappdynamics.agent.tierName= 
-	–-Dappdynamics.agent.nodeName=
-	`
+- 	`–-Dappdynamics.controller.hostName= `
+- 	`–-Dappdynamics.controller.port= `
+- 	`–-Dappdynamics.agent.acountName= `
+- 	`–-Dappdynamics.agent.accountAccessKey= `
+	`–-Dappdynamics.agent.applicationName= `
+	`–-Dappdynamics.agent.tierName=`
+	`–-Dappdynamics.agent.nodeName=`
+	`–-Dappdynamics.agent.nodeName.=`
+
 
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzExODUzNjgsMTQ0MTQ5MDY0NiwtMz
-Y3NjUxODgyXX0=
+eyJoaXN0b3J5IjpbLTM0NjQ0MjQxNywxNDQxNDkwNjQ2LC0zNj
+c2NTE4ODJdfQ==
 -->
