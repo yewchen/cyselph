@@ -16,13 +16,13 @@
 	- 若同一台主機有多個tomcat，會吃到同一個controller-info.xml
 	- 可在啟動agent.sh內overwrite參數即可
 - Tomcat安裝
-- 
+	- tomcat/bin新增 setenv.sh，內容為export javaagent
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4Mjg2OTMyLDEwNzMzMDk5MDUsLTgyMT
+eyJoaXN0b3J5IjpbMzQwODI0MDY1LDEwNzMzMDk5MDUsLTgyMT
 M2NjgzMCwtMTk1NTEwMzE0MiwtNzE2MTMzOTc3LDE0NzQzNDk2
 ODVdfQ==
 -->
