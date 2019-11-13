@@ -33,7 +33,7 @@
 `JAVA_OPTS="${JAVA_OPTS} -Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}" `
  
  
-	- 或者是使用： 
+	- 或者是使用(猜測應該是要以這為主，或者在ACM執行image的時候設定)： 
  	`–-Dappdynamics.controller.hostName=${APPD_HOST} `
  	`–-Dappdynamics.controller.port=${APPD_PORT} `
  	`–-Dappdynamics.agent.acountName=${APPD_ACCOUNT_NAME} `
@@ -43,16 +43,22 @@
 	`–-Dappdynamics.agent.reuse.nodeName=true`
 	`–-Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX} ` 
 
-
-
-	
-
-	
+- 執行docker run
+ payment
+docker run --rm -it -p 8080:8080 \
+-e APPD_HOST=192.168.200.57 \
+-e APPD_PORT=8090 \
+-e APPD_ACCOUNT_NAME=customer1 \
+-e APPD_ACCESS_KEY=90253aee-ebf1-47ae-9abb-a14e25757360 \
+-e APPD_APP_NAME=Payment \
+-e APPD_TIER_NAME=AP \
+-e APPD_NODE_PREFIX=AP \
+payment
 
 ## Transaction analytics"啟用"
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTg3MTQ2MSwxNDQxNDkwNjQ2LC0zNj
-c2NTE4ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQwNjkwNzMsMTQ0MTQ5MDY0NiwtMz
+Y3NjUxODgyXX0=
 -->
