@@ -62,12 +62,12 @@ payment
 ## 神
 1. 聽說agent可以植入web、app裡面
 2. Machine agent 的免費版只能檢測 CPU、RAM、InternetIO、DiskIO
-3. Li
+3. VM有提供Controller License, License若過期, 改VM時間即可
 
 ## QA
 1. OCSG C的應用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUxNTYxNTIsLTQyNjI3NzU3OCw2Mj
-YzMTUwODMsLTE1NTE2OTA4MDksMTQ0MTQ5MDY0NiwtMzY3NjUx
-ODgyXX0=
+eyJoaXN0b3J5IjpbMTE2OTU3NDY3MywtNDI2Mjc3NTc4LDYyNj
+MxNTA4MywtMTU1MTY5MDgwOSwxNDQxNDkwNjQ2LC0zNjc2NTE4
+ODJdfQ==
 -->
