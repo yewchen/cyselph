@@ -40,8 +40,8 @@
 - 	`–-Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}`
 	`–-Dappdynamics.agent.applicationName=${APPD_APP_NAME}`
 	`–-Dappdynamics.agent.tierName=${APPD_TIER_NAME}`
-	`–-Dappdynamics.agent.nodeName=true`
-	`–-Dappdynamics.agent.nodeName.prefix=`
+	`–-Dappdynamics.agent.reuse.nodeName=true`
+	`–-Dappdynamics.agent.reuse.nodeName.prefix=${APPD_NODE_PREFIX}`
 
 
 
@@ -49,6 +49,6 @@
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjQzNzkwOCwxNDQxNDkwNjQ2LC0zNj
+eyJoaXN0b3J5IjpbMTk0MTg4NTI1MywxNDQxNDkwNjQ2LC0zNj
 c2NTE4ODJdfQ==
 -->
