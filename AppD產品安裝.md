@@ -28,7 +28,5 @@ JAVA_OPTS="${JAVA_OPTS} -Djboss.modules.system.pkgs=${JBOSS_MODULES_SYSTEM_PKGS}
 
 ## 安裝問題排除
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzY1MTg4MiwyNTk2NzUyMjcsODg5Mz
-k2NjEyLDEwNzMzMDk5MDUsLTgyMTM2NjgzMCwtMTk1NTEwMzE0
-MiwtNzE2MTMzOTc3LDE0NzQzNDk2ODVdfQ==
+eyJoaXN0b3J5IjpbLTM2NzY1MTg4Ml19
 -->
